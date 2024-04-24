@@ -10,6 +10,8 @@ h1{
     background-color: dimgray;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 120px;
+    border: 10px; solid; color: aliceblue;
+    border-radius: 5px;
 }
 h2{
     text-align: center;
