@@ -28,3 +28,7 @@ color:aqua
 #banner{
     width: 100%;
 }
+.itens{
+    font-style: italic;
+    text-align: left;
+}
