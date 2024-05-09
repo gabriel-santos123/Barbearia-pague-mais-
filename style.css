@@ -2,9 +2,9 @@ body{
     text-align: center;
     background-color: black;
     color: aliceblue;
-    border: solid 40px;
+    border: solid 20px;
     border-color: aliceblue;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 h1{
     text-align: center;
