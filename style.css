@@ -4,6 +4,7 @@ body{
     color: aliceblue;
     border: solid;
     border-color: aliceblue;
+    border-radius: 10px;
 }
 h1{
     text-align: center;
@@ -12,7 +13,7 @@ h1{
     font-size: 120px;
     border: 10px solid;
     border-color: ;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 h2{
     text-align: center;
