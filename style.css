@@ -32,3 +32,15 @@ color:aqua
     font-style: italic;
     text-align: left;
 }
+.beneficios{
+    background: red;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+.imagembeneficios{
+    width: 50%;
+}
+
+
