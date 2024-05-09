@@ -1,2 +1,2 @@
 # Barbearia-pague-mais-
-Pobre da meia volta
+Pobre, da meia volta
