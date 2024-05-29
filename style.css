@@ -1,57 +1,100 @@
-body{
+body {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+    font-size: 25px;
     text-align: center;
-    background-color: black;
-    color: aliceblue;
-    border: solid 20px;
-    border-color: aliceblue;
-    border-radius: 20px;
 }
-h1{
+.titulo-principal {
     text-align: center;
-    background-color: dimgray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 120px;
-    border: 20px solid;
-    border-color: ;
+    background-color: rgb(88, 88, 88);
+    font-size: 100px;
+    border: 10px solid;
+    border-color: black;
 }
-h2{
+
+h2 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 100px;
 }
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
+
+
+p {
+    margin-left: 03%;
 }
-strong{
-color:aqua
+
+em strong {
+    color: rgb(127, 69, 202);
 }
-#banner{
+
+#banner {
     width: 100%;
 }
-.itens{
-    font-style: italic;
-    text-align: left;
-}
-.beneficios{
-    background-color: red;
-    padding: 20px;
-    }
-.imagembeneficios{
+
+.imagembeneficios {
     width: 50%;
 }
 
-ul{
-    display: inline-block;
+.itens {
+    font-style: italic;
+    text-align: left;
+}
+
+
+.beneficios {
+    padding: 20px;
+    border-top: 10px black;
+    border: 8px solid black;
+    background: rgb(51, 51, 51);
+}
+
+ul {
+    display: flex;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
-    border: 5px solid white;
-    line-height: 1.5;
-    text-align: center;
-}
-.principal{
-    background: black;
+
 }
 
-    
+.menu{
+    display: flex;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+  
+}
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "🟊";
+}
+
+.imagembeneficios {
+    width: 40%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagembeneficios:hover {
+    opacity: 0.3;
+}
